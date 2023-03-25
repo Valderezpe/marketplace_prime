@@ -12,7 +12,7 @@ model user {
   name       String
   email      String
   password   String
-  Acess      Access?  @relation(fields: [acessId], references: [id])
+  Access      Access?  @relation(fields: [acessId], references: [id])
   acessId    String?
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
