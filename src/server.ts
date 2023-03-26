@@ -6,4 +6,4 @@ const app = express();
 app.use(express.json());
 app.use(router);
 
-app.listen(4000, () => console.log("Hello World"));
+app.listen(4000, () => console.log("running start"));
